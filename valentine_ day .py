@@ -94,5 +94,5 @@ def quiz():
 
 if _name_ == "_main_":
     generate_qr()
-    app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)))
+    
 
